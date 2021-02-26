@@ -1,0 +1,18 @@
+{
+  "name": "@serverful/views",
+  "version": "0.0.1",
+  "description": "A resource selector extension for the Serverful core",
+  "main": "Views.js",
+  "scripts": {},
+  "keywords": [],
+  "homepage": "https://github.com/ServerfulArch/Core#readme",
+  "repository": "github:ServerfulArch/Views",
+  "author": "QSmally",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ServerfulArch/Views/issues"
+  },
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "devDependencies": {}
+}
