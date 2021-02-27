@@ -8,6 +8,7 @@
 * [ ] View selection, render and request end.
 * [ ] A reloadable view cache.
 * [ ] Automatic header inserts on load.
+* [ ] Predefined handler configurations.
 
 ## Links
 * [Documentations](https://github.com/ServerfulArch/Views/blob/master/Documentation/Index.md)
