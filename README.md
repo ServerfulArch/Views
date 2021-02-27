@@ -5,7 +5,7 @@
 
 
 # Features
-* [ ] View selection, render and request end.
+* [x] View selection, render and request end.
 * [ ] A reloadable view cache.
 * [ ] Automatic header inserts on load.
 * [ ] Predefined handler configurations.
