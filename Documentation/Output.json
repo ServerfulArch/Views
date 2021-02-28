@@ -1,0 +1,47 @@
+{
+    "Request": [
+        {
+            "Value": "Views",
+            "Flags": [
+                "Variable",
+                "ReadOnly"
+            ],
+            "Line": 19,
+            "Description": "A directory with all views.",
+            "Type": "{String}"
+        },
+        {
+            "Value": "Fetch",
+            "Flags": [],
+            "Line": 33,
+            "Description": "Retrieves a raw resource.",
+            "Params": [
+                "{String} Identifier A file path."
+            ],
+            "Returns": "{String?}"
+        },
+        {
+            "Value": "View",
+            "Flags": [],
+            "Line": 44,
+            "Description": "Retrieves a view and writes it to the client.",
+            "Params": [
+                "{String} Identifier A file path.",
+                "{Number} [Code] Status to end this request with."
+            ],
+            "Returns": "{Request}"
+        },
+        {
+            "Value": "Render",
+            "Flags": [],
+            "Line": 57,
+            "Description": "Retrieves a view and renders it.",
+            "Params": [
+                "{String} Identifier A file path.",
+                "{Object|Array} [Document] A context object or array with render items.",
+                "{Number} [Code] Status to end this request with."
+            ],
+            "Returns": "{Request}"
+        }
+    ]
+}
