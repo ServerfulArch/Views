@@ -23,9 +23,17 @@ const Views = require("@serverful/views");
 
 
 # Usage
-Register the plugin and configure views.
+Register the plugin and configure the view directory.
 ```js
 Serverful.Extension(Views("./WebContent/Views/"));
+```
+
+Handle a request using by selecting a view.
+```js
+MyServer.Incoming(Packet => {
+    // Information processing...
+    Packet.Request.View("/internal/embed");
+});
 ```
 
 
