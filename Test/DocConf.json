@@ -1,0 +1,16 @@
+{
+    "Source": "lib/",
+    "Out":    "Documentation/",
+    "Index":  true,
+
+    "Additional": {},
+
+    "Repository": "https://github.com/ServerfulArch/Views/blob/master/",
+
+    "Keys": ["lib/Request"],
+    "Typedefs": [],
+
+    "Overview": {
+        "Request": "Request"
+    }
+}

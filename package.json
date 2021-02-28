@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "A resource selector extension for the Serverful core",
   "main": "Views.js",
-  "scripts": {},
+  "scripts": {
+    "docs": "gendocs Test/DocConf.json"
+  },
   "keywords": [],
   "homepage": "https://github.com/ServerfulArch/Core#readme",
   "repository": "github:ServerfulArch/Views",
@@ -14,5 +16,7 @@
   },
   "peerDependencies": {},
   "optionalDependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "docgen": "github:QSmally/Docgen"
+  }
 }
