@@ -8,5 +8,8 @@ module.exports = Pathlike => (function ServerfulExtension (Server) {
     const ExtendedRequest = Request(BaseRequest, Pathlike);
     Server.Managers.set("Request", ExtendedRequest);
 
+    const Watcher = require("./lib/Watcher");
+    Watcher(Pathlike);
+
     return true;
 });
