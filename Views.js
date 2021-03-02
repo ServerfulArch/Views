@@ -14,8 +14,18 @@ module.exports = (Content, Headers = undefined) => {
         throw new TypeError("Content path should be a type of String.");
     }
 
-    if (Headers && typeof Headers !== "string") {
-        throw new TypeError("Header path should be a type of String.");
+    const HeaderMap = new Map();
+
+    if (Headers) {
+        if (typeof Headers !== "string") throw new TypeError("Header path should be a type of String.");
+
+        const FS   = require("fs");
+        const Path = require("path");
+
+        for (const Header of FS.readdirSync(Headers)) {
+            const Destination = FS.readFileSync(Path.join(Headers, Header), "utf-8");
+            HeaderMap.set(Header.split(".").shift(), Destination);
+        }
     }
 
     return function ServerfulExtension (Server) {
