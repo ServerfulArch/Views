@@ -1,6 +1,6 @@
 {
   "name": "@serverful/views",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A resource selector extension for the Serverful core",
   "main": "Views.js",
   "scripts": {

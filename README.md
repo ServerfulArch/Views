@@ -7,7 +7,7 @@
 # Features
 * [x] View selection, render and request end.
 * [x] A reloadable view cache.
-* [ ] Automatic header inserts on load.
+* [x] Automatic header inserts on load.
 * [ ] Predefined handler configurations.
 
 ## Links
@@ -25,7 +25,19 @@ const Views = require("@serverful/views");
 # Usage
 Register the plugin and configure the view directory.
 ```js
-Serverful.Extension(Views("./WebContent/Views/"));
+Serverful.Extension(Views(Content, Headers));
+```
+
+Insertion of predefined headers.
+```html
+// Headers/Navbar.html
+<div>
+    <a href="#">Home</a>
+    <a href="#">Github</a>
+<div>
+
+// Views/Index.html
+<serverful navbar>
 ```
 
 Handle a request using by selecting a view.
