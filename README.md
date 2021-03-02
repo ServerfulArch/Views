@@ -34,7 +34,7 @@ Insertion of predefined headers.
 <div>
     <a href="#">Home</a>
     <a href="#">Github</a>
-<div>
+</div>
 
 // Views/Index.html
 <serverful navbar>
