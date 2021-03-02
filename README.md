@@ -25,7 +25,7 @@ const Views = require("@serverful/views");
 # Usage
 Register the plugin and configure the view directory.
 ```js
-Serverful.Extension(Views(Content, Headers));
+Serverful.Extension(Views(Content, Headers?));
 ```
 
 Insertion of predefined headers.

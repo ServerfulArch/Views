@@ -7,5 +7,5 @@
 const Views = require("@serverful/views");
 ```
 
-### Current implemented classes
+### Classes
 * [Request](https://github.com/ServerfulArch/Views/blob/master/Documentation/Request.md)
