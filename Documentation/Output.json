@@ -33,7 +33,9 @@
         },
         {
             "Value": "Render",
-            "Flags": [],
+            "Flags": [
+                "Async"
+            ],
             "Line": 57,
             "Description": "Retrieves a view and renders it.",
             "Params": [

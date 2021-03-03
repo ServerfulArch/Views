@@ -32,7 +32,7 @@ An extended class modified for the Serverful/Views extension.
 >
 > Returns **{Request}**
 
-## [.Render(Identifier, Document?, Code?)](https://github.com/ServerfulArch/Views/blob/master/lib/Request.js#L57)
+## [.Render(Identifier, Document?, Code?)](https://github.com/ServerfulArch/Views/blob/master/lib/Request.js#L57) [**Async**]
 > Retrieves a view and renders it.
 > | Key | Type | Description |
 > | --- | --- | --- |
